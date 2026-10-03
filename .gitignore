@@ -1,0 +1,54 @@
+# ==========================================
+# KasirKu - Git Ignore
+# ==========================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime data & secrets
+data/
+
+# Local business data
+balance.xlsx
+Template_Produk_DB_TACO_fixed.xlsx
+template-import-produk.xlsx
+
+# Internal parsed product data
+scripts/parsed-products.json
+scripts/parsed-products-fixed.json
+
+# Temporary files
+tmp/
+tmp-*
+*.tmp
+
+# Logs
+*.log
+
+# Postman local files
+.postman/
+postman/
+
+# Local test/import artifacts
+import-products*.cjs
+test_db.cjs
+rebuild-categories.cjs
+
+# Windows shortcuts / local launchers
+*.lnk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
